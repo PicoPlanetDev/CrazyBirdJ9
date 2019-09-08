@@ -117,7 +117,7 @@ body::before {
        (max-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.5),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/bg_1024.jpg');
+    background-image: url('images/bg_1024.webp');
   }
 }
 @media (min-width: 513px)  and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -125,7 +125,7 @@ body::before {
        (min-width: 1025px) and (max-width: 2048px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 1025px) and (max-width: 2048px) and (max-resolution: 1.5dppx)  {
   body::before {
-    background-image: url('images/bg_2048.jpg');
+    background-image: url('images/bg_2048.webp');
   }
 }
 @media (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -133,7 +133,7 @@ body::before {
        (min-width: 2049px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/bg_2880.jpg');
+    background-image: url('images/bg_2880.webp');
   }
 }
 body .blog {
@@ -283,7 +283,7 @@ body .blog {
           order: -1;
 }
 .blog .finches-pic .mdl-card__media {
-  background-image: url('images/finches-1.jpg');
+  background-image: url('images/finches-1.webp');
 }
 .blog .social-card .mdl-card__media {
   display: -webkit-flex;
@@ -323,10 +323,10 @@ body .blog {
   border-bottom-right-radius: 2px;
 }
 .blog .ground-birds .mdl-card__media {
-  background-image: url('images/button-quail-bowl.jpg');
+  background-image: url('images/button-quail-bowl.webp');
 }
 .blog .shopping .mdl-card__media {
-  background-image: url('images/shopping.jpg');
+  background-image: url('images/shopping.webp');
 }
 .blog .blog__posts > .demo-nav {
   margin: 12px 15px;
@@ -385,7 +385,7 @@ body .blog {
   background-color: transparent;
 }
 .blog--blogpost .blog__posts > .mdl-card .mdl-card__media {
-  background-image: url('images/road_big.jpg');
+  background-image: url('images/road_big.webp');
   height: 280px;
 }
 .blog--blogpost .comments {
@@ -544,12 +544,12 @@ body .blog {
   z-index: 10;
 }
 .blog .birds-for-sale .mdl-card__media {
-  background-image: url('images/feathers.jpg');
+  background-image: url('images/feathers.webp');
 }
 .blog .minilogo {
   width: 44px;
   height: 44px;
-  background-image: url('images/avatar.png');
+  background-image: url('images/avatar.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -577,13 +577,13 @@ body .blog {
   border-radius: 2px;
 }
 .social-btn__twitter {
-  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png');
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.webp');
 }
 .social-btn__blogger {
-  background-image: url('images/post_facebook_black_24dp.png');
+  background-image: url('images/post_facebook_black_24dp.webp');
 }
 .social-btn__gplus {
-  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_black_24dp.png');
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_black_24dp.webp');
 }
 .social-btn__share {
   color: rgba(0, 0, 0, 1);
