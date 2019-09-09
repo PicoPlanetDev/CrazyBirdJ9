@@ -325,6 +325,11 @@ body .blog {
 .blog .ground-birds .mdl-card__media {
   background-image: url('images/button-quail-bowl.webp');
 }
+.blog .crazy-bird-lady .mdl-card__media {
+  background-image: url('images/Birds-on-string.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .blog .shopping .mdl-card__media {
   background-image: url('images/shopping.webp');
 }
