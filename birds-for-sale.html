@@ -50,14 +50,6 @@
       background-color: "white";
     }
 
-    #demo-finch-image{
-      background: url('images/finches-2.webp') center / cover;
-    }
-
-    #demo-quail-image{
-      background: url('images/button-quail-1.webp') center / cover;
-    }
-
     .card-event.mdl-card {
       width: 100%;
       height: 100%;
@@ -106,22 +98,19 @@
     <!-- This is the main part of the page -->
     <main class="mdl-layout__content">
       <div class="heading-div">
+        <!-- Heading is the big text at the top of the page -->
 				<h1 class="heading">Birds for Sale</h1>
 			</div>
+      <!-- Paragraph about the birds you normally take - mating pairs, etc. -->
       <p>
         On this page, you can put some info about the next bird fair and what
         birds you are taking. There is space for unlimited pictures and a list of birds.
-        <br>
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
       <hr>
 
+      <!-- List of birds being taken to the next show.
+      Add an <li>Bird name</li> under the others to add anther bullet point to the list.
+      You can change the bullet points just by rewurting what's inside them, or delete them by removing an <li></li> line -->
       <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--6-col">
           <p>Below is a list of the birds that I will bre bringing to the next bird fair:
@@ -138,6 +127,7 @@
         <div class="mdl-cell mdl-cell--6-col">
           <div class="card-event mdl-card mdl-shadow--2dp">
             <div class="mdl-card__title mdl-card--expand">
+              <!-- Edit the text right here to change the orange bird show card. -->
               <h4>
                 Next Bird Show:<br>
                 OHPA Bird Show<br>
@@ -147,9 +137,6 @@
               </h4>
             </div>
             <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Add to Calendar
-              </a>
               <div class="mdl-layout-spacer"></div>
               <i class="material-icons">event</i>
             </div>
@@ -159,18 +146,21 @@
 
       <!-- Image grid -->
       <div class="mdl-grid">
-
+        <!-- Change the image by typing an new image after style="background: url('images/ 
+        on any of the cards below.
+        Make sure that the name corresponds with an image already uploaded. -->
         <div class="mdl-cell mdl-cell--2-col">
-          <div class="card-image mdl-card mdl-shadow--2dp" id="demo-finch-image">
+          <div class="card-image mdl-card mdl-shadow--2dp" style="background: url('images/finches-2.webp') center / cover;">
             <div class="mdl-card__title mdl-card--expand"></div>
             <div class="mdl-card__actions">
+              <!-- You can change the caption on a card by renaming it below -->
               <span class="card-image__filename">Demo Finch Image</span>
             </div>
           </div>
         </div>
 
         <div class="mdl-cell mdl-cell--2-col">
-          <div class="card-image mdl-card mdl-shadow--2dp" id="demo-quail-image">
+          <div class="card-image mdl-card mdl-shadow--2dp" style="background: url('images/button-quail-1.webp') center / cover;">
             <div class="mdl-card__title mdl-card--expand"></div>
             <div class="mdl-card__actions">
               <span class="card-image__filename">Demo Quail Image</span>
@@ -179,7 +169,7 @@
         </div>
 
         <div class="mdl-cell mdl-cell--2-col">
-          <div class="card-image mdl-card mdl-shadow--2dp" id="demo-finch-image">
+          <div class="card-image mdl-card mdl-shadow--2dp" style="background: url('images/finches-2.webp') center / cover;">
             <div class="mdl-card__title mdl-card--expand"></div>
             <div class="mdl-card__actions">
               <span class="card-image__filename">Demo Finch Image</span>
@@ -188,7 +178,7 @@
         </div>
 
         <div class="mdl-cell mdl-cell--2-col">
-          <div class="card-image mdl-card mdl-shadow--2dp" id="demo-quail-image">
+          <div class="card-image mdl-card mdl-shadow--2dp" style="background: url('images/button-quail-1.webp') center / cover;">
             <div class="mdl-card__title mdl-card--expand"></div>
             <div class="mdl-card__actions">
               <span class="card-image__filename">Demo Quail Image</span>
@@ -197,7 +187,7 @@
         </div>
 
         <div class="mdl-cell mdl-cell--2-col">
-          <div class="card-image mdl-card mdl-shadow--2dp" id="demo-finch-image">
+          <div class="card-image mdl-card mdl-shadow--2dp" style="background: url('images/finches-2.webp') center / cover;">
             <div class="mdl-card__title mdl-card--expand"></div>
             <div class="mdl-card__actions">
               <span class="card-image__filename">Demo Finch Image</span>
@@ -206,7 +196,7 @@
         </div>
 
         <div class="mdl-cell mdl-cell--2-col">
-          <div class="card-image mdl-card mdl-shadow--2dp" id="demo-quail-image">
+          <div class="card-image mdl-card mdl-shadow--2dp" style="background: url('images/button-quail-1.webp') center / cover;">
             <div class="mdl-card__title mdl-card--expand"></div>
             <div class="mdl-card__actions">
               <span class="card-image__filename">Demo Quail Image</span>
