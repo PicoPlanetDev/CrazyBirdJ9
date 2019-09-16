@@ -278,9 +278,7 @@ body .blog {
           order: 0;
 }
 .blog.is-small-screen .blog__posts > .mdl-card.social-card {
-  -webkit-order: -1;
-      -ms-flex-order: -1;
-          order: -1;
+
 }
 .blog .finches-pic .mdl-card__media {
   background-image: url('images/Gouldian-finch-3.jpg');
