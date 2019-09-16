@@ -297,13 +297,7 @@ body .blog {
       -ms-flex-align: center;
           align-items: center;
 }
-.blog .social-card > button {
-  position: absolute;
-  top: 0;
-  right: 28px;
-  -webkit-transform: translate(0px, -28px);
-          transform: translate(0px, -28px);
-}
+
 .blog .social-card .mdl-card__media {
   font-size: 13px;
   font-weight: 500;
