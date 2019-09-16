@@ -272,7 +272,7 @@ body .blog {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.blog.is-small-screen .blog__posts > .mdl-card.finches-pic {
+.blog.is-small-screen .blog__posts > .mdl-card.birds-for-sale {
   -webkit-order: 0;
       -ms-flex-order: 0;
           order: 0;
@@ -280,8 +280,8 @@ body .blog {
 .blog.is-small-screen .blog__posts > .mdl-card.social-card {
 
 }
-.blog .finches-pic .mdl-card__media {
-  background-image: url('images/Gouldian-finch-3.jpg');
+.blog .birds-for-sale .mdl-card__media {
+  background-image: url('images/feathers.jpg');
 }
 .blog .social-card .mdl-card__media {
   display: -webkit-flex;
@@ -540,8 +540,8 @@ body .blog {
   overflow: visible;
   z-index: 10;
 }
-.blog .birds-for-sale .mdl-card__media {
-  background-image: url('images/feathers.jpg');
+.blog .finches-pic .mdl-card__media {
+  background-image: url('images/Gouldian-finch-3.jpg');
 }
 .blog .minilogo {
   width: 44px;
