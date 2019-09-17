@@ -390,7 +390,7 @@ body .blog {
 }
 .blog .finches-pic .mdl-card__media {
   background-image: url('images/Gouldian-finch-3.jpg');
-  min-height: 600px;
+  min-height: 500px;
 }
 .blog .minilogo {
   width: 44px;
