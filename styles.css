@@ -296,7 +296,6 @@ body .blog {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffab40;
 }
 
 .blog .social-card .mdl-card__media {
@@ -304,7 +303,6 @@ body .blog {
   font-weight: 500;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  background-color: #ffab40;
 }
 .blog .social-card .mdl-card__media img {
   width: 64px;
