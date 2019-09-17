@@ -141,7 +141,7 @@ body .blog {
 }
 
 .blog .blog__posts {
-  max-width: 1000px;
+  max-width: 900px;
   padding: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
