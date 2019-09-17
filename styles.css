@@ -321,7 +321,7 @@ body .blog {
   background-image: url('images/Birds-on-string.png');
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 600px;
+  min-height: 400px;
 }
 .blog .shopping .mdl-card__media {
   background-image: url('images/shopping.webp');
