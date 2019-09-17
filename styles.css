@@ -278,7 +278,7 @@ body .blog {
           order: 0;
 }
 .blog.is-small-screen .blog__posts > .mdl-card.social-card {
-  background-color: #f69b0f;
+
 }
 .blog .birds-for-sale .mdl-card__media {
   background-image: url('images/feathers.jpg');
@@ -296,6 +296,7 @@ body .blog {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #f69b0f;
 }
 
 .blog .social-card .mdl-card__media {
