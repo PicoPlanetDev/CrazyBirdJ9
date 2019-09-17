@@ -141,7 +141,7 @@ body .blog {
 }
 
 .blog .blog__posts {
-  max-width: 70%;
+  max-width: 1000px;
   padding: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -151,12 +151,6 @@ body .blog {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-}
-
-@media only screen and (max-width: 768px) {
-  class*="blog__posts" {
-    max-width: 900px;
-  }
 }
 
 .blog.mdl-layout .mdl-layout__content {
