@@ -141,7 +141,7 @@ body .blog {
 }
 
 .blog .blog__posts {
-  max-width: 900px;
+  max-width: 70%;
   padding: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -151,6 +151,12 @@ body .blog {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  class*="blog__posts" {
+    max-width: 900px;
+  }
 }
 
 .blog.mdl-layout .mdl-layout__content {
@@ -377,159 +383,6 @@ body .blog {
 }
 .blog .mdl-card h3.quote:after {
   content: '”';
-}
-.blog--blogpost .custom-header {
-  background-color: transparent;
-}
-.blog--blogpost .blog__posts > .mdl-card .mdl-card__media {
-  background-image: url('images/road_big.webp');
-  height: 280px;
-}
-.blog--blogpost .comments {
-  background-color: #EEE;
-}
-.blog--blogpost .meta > * {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.blog--blogpost .meta + .mdl-card__supporting-text {
-  border: 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.blog--blogpost .meta + .mdl-card__supporting-text p {
-  max-width: 512px;
-  margin: 16px auto;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-.blog--blogpost .comments {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  padding: 32px;
-  box-sizing: border-box;
-}
-.blog--blogpost .comments > form {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 16px;
-}
-.blog--blogpost .comments > form .mdl-textfield {
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  margin-right: 16px;
-  color: rgb(97, 97, 97);
-}
-/* Workaround for Firefox.
- * User agent stylesheet kept overwriting the font in FF only.
- */
-.blog--blogpost .comments > form .mdl-textfield .mdl-textfield__input {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-}
-.blog--blogpost .comments > form .mdl-textfield input,
-.blog--blogpost .comments > form .mdl-textfield textarea {
-  resize: none;
-}
-.blog--blogpost .comments > form button {
-  margin-top: 20px;
-  background-color: rgba(0, 0, 0, 0.24);
-  color: white;
-}
-.blog--blogpost .comments .comment {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-.blog--blogpost .comments .comment > .comment__header {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 16px;
-}
-.blog--blogpost .comments .comment > .comment__header > .comment__avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-  margin-right: 16px;
-}
-.blog--blogpost .comments .comment > .comment__header > .comment__author {
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.blog--blogpost .comments .comment > .comment__text {
-  line-height: 1.5em;
-}
-.blog--blogpost .comments .comment > .comment__actions {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 0.8em;
-  margin-top: 16px;
-}
-.blog--blogpost .comments .comment > .comment__actions button {
-  margin-right: 16px;
-  color: rgba(0, 0, 0, 0.24);
-}
-.blog--blogpost .comments .comment > .comment__answers {
-  padding-top: 32px;
-  padding-left: 48px;
-}
-
-.blog--blogpost .demo-back {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  color: white;
-  z-index: 9999;
 }
 .blog .section-spacer {
   -webkit-flex-grow: 1;
